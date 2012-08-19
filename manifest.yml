@@ -1,0 +1,13 @@
+---
+applications:
+  .:
+    name: dfang
+    framework:
+      name: rails3
+      info:
+        mem: 256M
+        description: Rails Application
+        exec: !!null 
+    url: dfang.cloudfoundry.com
+    mem: 128M
+    instances: 1
